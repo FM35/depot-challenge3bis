@@ -1,0 +1,111 @@
+
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+ }
+
+
+						/*---------------Menu - Barre de naviguation---------------*/   
+
+                                 
+.menu {
+	height: 80px;
+	background: black;
+	width: 100%
+}    
+
+.navbar {
+	
+	margin: 0 auto;
+	display: inline;
+	text-align: center;
+	}
+
+
+.nav-links {
+	color: grey;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Josefin+Sans', sans-serif;
+	font-size: 20px;
+	padding: 0 20px;
+	
+	
+}
+
+.nav-links-current {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Josefin+Sans' sans-serif;
+	font-size: 20px;
+	padding: 0 20px;
+	
+	
+}
+
+.titre-header {
+	color: black;
+	background-color: yellow;
+	text-align: center;
+	height: 370px;
+}
+
+.photo-header {
+	width: 100%;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  	
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
