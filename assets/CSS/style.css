@@ -10,6 +10,11 @@ https://github.com/roro35140/challenge3.git
 
 /* --- TABLE DES MATIERES
 . Import fonts
+- SECTION-ASIDE
+	-ABOUTME
+	-RECENTPOST
+	-INSTAGSLIDER
+
 . FOOTER
 	-INSTAGRAM
 	- SOCIAL 
@@ -25,7 +30,108 @@ https://github.com/roro35140/challenge3.git
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
+/*---------------SECTION ASIDE---------------*/
+section .container-fluid{
+margin:50px 30px; 
+}
 
+
+
+
+.titleinsta{
+	color: rgb(49, 49, 49);
+    font-family : "Playfair Display",serif;
+    font-size: 20px;
+	letter-spacing: 1px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    text-align: left;
+	margin-bottom:50px;
+	padding-bottom:25px;
+	margin-top:60px;
+	border-bottom: 4px double black;
+	
+	width:380px;
+	
+}
+
+
+
+/*---------------ABOUTME--------------*/
+.imageabout,.imageabout img{
+	height:245px;
+	
+
+}
+.aboutme p{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+	line-height:30px;
+	margin-top:20px;
+	width:370px;
+}
+
+/*--------------RECENTPOST------------*/
+
+
+
+.recentpost img{
+	height:80px;
+	width:120px;
+	
+}
+.recentpost .row{
+	display:flex;
+	margin-bottom:30px;
+
+	
+}
+ .recentpost .titlephoto{
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	margin-left:30px;
+}
+
+.titlephoto h4 {
+	font-family:"lato",sans-serif;
+	font-size:20px;
+	color: rgb(49, 49, 49);
+	line-height:17px;
+	text-align: left;
+	
+
+}
+
+.recentpost  span{
+	font-family:"Lato",sans-serif;
+    color: #888888;
+    font-size: 14px;
+	line-height: 17px;
+    vertical-align: baseline;
+    font-weight: 400;
+    text-align: left;
+}
+.recentpost a:hover h4 {
+	color: #a60505;
+	text-decoration:none;
+}
+.separation {
+    height: 2px;
+    width:100%;
+    background-color: #e7e7e7;
+}
+
+/*--------------INSTAGSLIDER---------*/
+.imageinstag  img {
+	height:365px;
+	width:365px;
+}
+.col-lg-4 .instagslider{
+	margin-right:0px;
+}
 /*--------------- FOOTER ---------------*/   
 .jumbotron{
 	background-color:rgb(33,33,33);
@@ -33,6 +139,7 @@ https://github.com/roro35140/challenge3.git
 	width:1440px;
 	margin:0px;
 	padding:0px;
+	position:relative;
 
 }
 	/*---------------INSTAGRAM---------------*/   
