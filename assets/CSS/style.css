@@ -8,22 +8,43 @@ body, html {
     padding: 0;
  }
 
+/*
+Description: Site Soledad
+Nom de l'auteur: Olivier Romer et François Massiot
+Url:https://github.com/FM35/depot-challenge3bis.git
+https://github.com/roro35140/challenge3.git
+*/
+
+
+/* --- TABLE DES MATIERES
+. Import fonts
+. FOOTER
+	-INSTAGRAM
+	- SOCIAL 
+	- LOGO COPYRIGTH 
+		- LOGO 
+		- COPYRIGHT
+		- UPFROMFOOTER
+--- */
+
+
+
 
 						/*---------------Menu - Barre de naviguation---------------*/   
 
                                  
-.menu {
-	height: 80px;
-	background: black;
-	width: 100%
-}    
+
+.fa {
+	text-align: center;
+	display: flex;
+}
 
 .navbar {
 	
 	margin: 0 auto;
 	display: inline;
 	text-align: center;
-	}
+}
 
 
 .nav-links {
@@ -33,8 +54,6 @@ body, html {
 	font-family: 'Josefin+Sans', sans-serif;
 	font-size: 20px;
 	padding: 0 20px;
-	
-	
 }
 
 .nav-links-current {
@@ -44,33 +63,402 @@ body, html {
 	font-family: 'Josefin+Sans' sans-serif;
 	font-size: 20px;
 	padding: 0 20px;
-	
-	
 }
 
 .titre-header {
 	color: black;
-	background-color: yellow;
+	background-color: #f5f5f5;
 	text-align: center;
-	height: 370px;
+	height: 228px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: "Lato", serif;
+    text-align: center;
+    color: black;
+}
+
+h5{
+	font-size: 21px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    color: black;
+}
+
+
+
+.container-fluid {
+	width: 100%;
+	max-height: 560px;
+	background-color: none;
+}
+
+.row{
+		width: 100%
+		height: 560% 
 }
 
 .photo-header {
+		max-width : 100%;
+		height: 560px;
+		display: center;
+}
+
+
+.img-responsive {
+    width: 100%;
+	height: 560px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.separation {
+		width: 100%;
+		height: 60px;
+		background-color: red;
+}
+
+
+						/*---------------Début de la div articles avec photos---------------*/
+
+.container2 {
+	width: 1170px;
+	height: 3607px;
+	margin-left: auto;
+   	margin-right: auto;
+	background-color: none;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+
+.post {
+		border-style: none;
+		border-width: 1px;
+		border-color: none;
+		padding: 6rem;
+}
+
+.separation2 {
 	width: 100%;
-	margin-top: 0px;
+	height: 2px;
+	
+}
+
+
+.img-responsive2{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0;
+		padding: 0;
+}
+
+
+h2 {
+    font-size: 14.4px;
+    font-family: "Lato";
+    text-align: center;
+    color: red;
+}
+
+
+h3 {
+    font-size: 20px;
+    font-family: "Player display";
+    text-align: center;
+    color: none;
+}
+
+h4 {
+    font-size: 17px;
+    font-family: "Lato";
+    text-align: center;
+    color: none;
+}
+
+.separation2 {
+	height: 2px;
+	width: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: red; 
+}
+
+
+								/*---------------Icons articles---------------*/
+
+/*---.navbar-nav.pull-center li a{
+	font-size: 2rem;
+	height: 20px;
+	display: flex;
+	align-items: center;
+}-*/
+
+
+  	--- */
+
+/*---------------Import fonts---------------*/   
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+/*---------------SECTION ASIDE---------------*/
+section .container-fluid{
+margin:50px 30px; 
 }
 
 
 
 
+.titleinsta{
+	color: rgb(49, 49, 49);
+    font-family : "Playfair Display",serif;
+    font-size: 20px;
+	letter-spacing: 1px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    text-align: left;
+	margin-bottom:50px;
+	padding-bottom:25px;
+	margin-top:60px;
+	border-bottom: 4px double black;
+	
+	width:380px;
+	
+}
 
 
 
+/*---------------ABOUTME--------------*/
+.imageabout,.imageabout img{
+	height:245px;
+	
+
+}
+.aboutme p{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+	line-height:30px;
+	margin-top:20px;
+	width:370px;
+}
+
+/*--------------RECENTPOST------------*/
 
 
 
+.recentpost img{
+	height:80px;
+	width:120px;
+	
+}
+.recentpost .row{
+	display:flex;
+	margin-bottom:30px;
 
-  	
+	
+}
+ .recentpost .titlephoto{
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	margin-left:30px;
+}
+
+.titlephoto h4 {
+	font-family:"lato",sans-serif;
+	font-size:20px;
+	color: rgb(49, 49, 49);
+	line-height:17px;
+	text-align: left;
+	
+
+}
+
+.recentpost  span{
+	font-family:"Lato",sans-serif;
+    color: #888888;
+    font-size: 14px;
+	line-height: 17px;
+    vertical-align: baseline;
+    font-weight: 400;
+    text-align: left;
+}
+.recentpost a:hover h4 {
+	color: #a60505;
+	text-decoration:none;
+}
+.separation {
+    height: 2px;
+    width:100%;
+    background-color: #e7e7e7;
+}
+
+/*--------------INSTAGSLIDER---------*/
+.imageinstag  img {
+	height:365px;
+	width:365px;
+}
+.col-lg-4 .instagslider{
+	margin-right:0px;
+}
+/*--------------- FOOTER ---------------*/   
+.jumbotron{
+	background-color:rgb(33,33,33);
+	text-align:center;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	position:relative;
+
+}
+	/*---------------INSTAGRAM---------------*/   
+.instagram{
+	width: 100%;
+	margin:0px;
+	padding:0px;	
+}
+.imageonInstag{
+	list-style:none;
+	display:flex;
+	
+	
+}
+.jumbotron .Instagram .imageonInstag {
+	text-align: left;
+	margin:0px;
+	padding:0px;
+}
+
+.imageInstagram {
+	width:100%;
+	height:180px;
+	margin:0px;
+	padding:0px;
+}
+.MeonInstag{
+	position:absolute;
+	top:30px;
+	left:700px;
+	background-color: white;
+	font-family:Monaco,Menlo,Consolas,"Courrier New",monospace;
+	font-size: 20px;
+	line-height:40px;
+
+	padding:20px;
+	
+	
+	
+}
+	/*------------------SOCIAL--------------*/
+.socialFooter{
+	
+	border-bottom:1px solid #4a4a4a;
+	padding:30px 0 15px;
+	text-align:center;
+}
+.socialFooter ul {
+	display:flex;
+	justify-content: center;
+
+}
+.socialFooter ul li {
+	list-style:none;
+	margin-right: 29px;
+}
+
+ul.footer-socials li:last-child {
+    margin-right: 0;
+}
+
+.socialFooter ul li a:hover i{
+	color:#999;
+	cursor:pointer;
+	transition:0.3s;
+	text-decoration:none;
+	border-color:white;
+	background-color:white;
+}
+
+
+.socialFooter ul li a i  {
+	border: 1px solid #999;
+    border-radius: 50%;
+    color: #999;
+    font-size: 14px;
+    height: 32px;
+	width: 32px;
+	line-height: 30px;
+}
+
+.socialFooter ul li  span {
+	font-weight:bold;
+	color:#999;
+	font-size:14px;
+	letter-spacing:1px;
+	margin-left:14px;
+	font-family:"Playfair Display",serif;
+}
+.socialFooter li a:hover span {
+    color:white;
+}
+	/*------------------LOGO COPYRIGHT--------------*/
+
+/*------------------LOGO --------------*/
+.logoFooter{
+	margin:35px 0 40px;
+	line-height: 60px;
+	width:100%;
+}
+/*------------------COPYRIGHT--------------*/
+.copyrightFooter{
+
+	color: rgb(153,153,153);
+	font-family:"Lato",sans-serif;
+	font-size:14px;
+	font-style:italic;
+	font-weight:400;
+
+}
+/*------------------UPFROMFOOTER--------------*/
+.upfromFooter{
+	margin-top:30px;
+
+}
+.upfromFooter p{
+	color: rgb(153, 153, 153);
+    font-family : "Raleway",sans-serif;
+    font-size: 12px;
+	font-weight: 700;
+}
+
+.upfromFooter i{
+	color: rgb(153, 153, 153);
+    font-size: 12px;
+	font-weight: 700;
+}
+.upfromFooter a:hover i{
+	color:white;
+	cursor:pointer;
+	transition:0.3s;
+	text-decoration:none;
+}
+.upfromFooter a:hover p{
+	color:white;
+	cursor:pointer;
+	transition:0.3s;
+	text-decoration:none;
+}
   
  
 
