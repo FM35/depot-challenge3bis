@@ -1,13 +1,4 @@
 
-
-
-
-
-body, html {
-    margin: 0;
-    padding: 0;
- }
-
 /*
 Description: Site Soledad
 Nom de l'auteur: Olivier Romer et François Massiot
@@ -17,7 +8,13 @@ https://github.com/roro35140/challenge3.git
 
 
 /* --- TABLE DES MATIERES
+
 . Import fonts
+- SECTION-ASIDE
+	-ABOUTME
+	-RECENTPOST
+	-INSTAGSLIDER
+
 . FOOTER
 	-INSTAGRAM
 	- SOCIAL 
@@ -25,12 +22,24 @@ https://github.com/roro35140/challenge3.git
 		- LOGO 
 		- COPYRIGHT
 		- UPFROMFOOTER
+
 --- */
+body, html {
+    margin: 0;
+    padding: 0;
+ }
+
+/*debut du codage olivier */
+/*---------------Import fonts---------------*/   
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 
 
 
-						/*---------------Menu - Barre de naviguation---------------*/   
+
+						/*---------------Menu - Barre de naviguation--Début François-------------*/   
 
                                  
 
@@ -193,28 +202,10 @@ h4 {
 }
 
 
-								/*---------------Icons articles---------------*/
-
-/*---.navbar-nav.pull-center li a{
-	font-size: 2rem;
-	height: 20px;
-	display: flex;
-	align-items: center;
-}-*/
-
-
-  	--- */
-
-/*---------------Import fonts---------------*/   
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
-
-/*---------------SECTION ASIDE---------------*/
-section .container-fluid{
-margin:50px 30px; 
+/*---------------SECTION ASIDE-----Début Olivier----------*/
+section .container{
+margin:50px auto; 
 }
-
 
 
 
@@ -242,9 +233,32 @@ margin:50px 30px;
 /*---------------ABOUTME--------------*/
 .imageabout,.imageabout img{
 	height:245px;
-	
+	}
 
+.titleinsta{
+	color: rgb(49, 49, 49);
+    font-family : "Playfair Display",serif;
+    font-size: 20px;
+	letter-spacing: 1px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    text-align: left;
+	margin-bottom:50px;
+	padding-bottom:25px;
+	margin-top:60px;
+	border-bottom: 4px double black;
+	
+	width:380px;
+	
 }
+
+
+
+
+
+
 .aboutme p{
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
@@ -355,11 +369,9 @@ margin:50px 30px;
 	font-size: 20px;
 	line-height:40px;
 
-	padding:20px;
-	
-	
-	
 }
+
+
 	/*------------------SOCIAL--------------*/
 .socialFooter{
 	
@@ -390,27 +402,54 @@ ul.footer-socials li:last-child {
 	background-color:white;
 }
 
+.recentpost img{
+	height:80px;
+	width:120px;
+	
+}
+.recentpost .row{
+	display:flex;
+	margin-left:20px;
+	margin-bottom:30px;
 
-.socialFooter ul li a i  {
-	border: 1px solid #999;
-    border-radius: 50%;
-    color: #999;
+}
+ .recentpost .titlephoto{
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	margin-left:30px;
+}
+
+.titlephoto h4 {
+	font-family:"lato",sans-serif;
+	font-size:20px;
+	color: rgb(49, 49, 49);
+	line-height:17px;
+	text-align: left;
+	
+
+}
+
+.recentpost  span{
+	font-family:"Lato",sans-serif;
+    color: #888888;
     font-size: 14px;
-    height: 32px;
-	width: 32px;
-	line-height: 30px;
+	line-height: 17px;
+    vertical-align: baseline;
+    font-weight: 400;
+    text-align: left;
+}
+.recentpost a:hover h4 {
+	color: #a60505;
+	text-decoration:none;
+}
+.separation {
+    height: 2px;
+    width:100%;
+    background-color: #e7e7e7;
 }
 
-.socialFooter ul li  span {
-	font-weight:bold;
-	color:#999;
-	font-size:14px;
-	letter-spacing:1px;
-	margin-left:14px;
-	font-family:"Playfair Display",serif;
-}
-.socialFooter li a:hover span {
-    color:white;
+
 }
 	/*------------------LOGO COPYRIGHT--------------*/
 
@@ -459,41 +498,5 @@ ul.footer-socials li:last-child {
 	transition:0.3s;
 	text-decoration:none;
 }
-  
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
+/*fin codage olivier */
