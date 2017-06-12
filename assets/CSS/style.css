@@ -50,9 +50,7 @@ margin:50px auto;
 	padding-bottom:25px;
 	margin-top:60px;
 	border-bottom: 4px double black;
-	
 	width:380px;
-	
 }
 
 
@@ -60,9 +58,6 @@ margin:50px auto;
 /*---------------ABOUTME--------------*/
 .imageabout,.imageabout img{
 	height:245px;
-	
-	
-
 }
 .aboutme p{
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -79,14 +74,11 @@ margin:50px auto;
 .recentpost img{
 	height:80px;
 	width:120px;
-	
 }
 .recentpost .row{
 	display:flex;
 	margin-left:20px;
 	margin-bottom:30px;
-
-	
 }
  .recentpost .titlephoto{
 	display:flex;
@@ -101,8 +93,6 @@ margin:50px auto;
 	color: rgb(49, 49, 49);
 	line-height:17px;
 	text-align: left;
-	
-
 }
 
 .recentpost  span{
@@ -140,7 +130,6 @@ margin:50px auto;
 	margin:0px;
 	padding:0px;
 	position:relative;
-
 }
 	/*---------------INSTAGRAM---------------*/   
 .instagram{
@@ -151,8 +140,6 @@ margin:50px auto;
 .imageonInstag{
 	list-style:none;
 	display:flex;
-	
-	
 }
 .jumbotron .Instagram .imageonInstag {
 	text-align: left;
@@ -174,11 +161,7 @@ margin:50px auto;
 	font-family:Monaco,Menlo,Consolas,"Courrier New",monospace;
 	font-size: 20px;
 	line-height:40px;
-
 	padding:20px;
-	
-	
-	
 }
 	/*------------------SOCIAL--------------*/
 .socialFooter{
@@ -190,7 +173,6 @@ margin:50px auto;
 .socialFooter ul {
 	display:flex;
 	justify-content: center;
-
 }
 .socialFooter ul li {
 	list-style:none;
@@ -248,12 +230,10 @@ ul.footer-socials li:last-child {
 	font-size:14px;
 	font-style:italic;
 	font-weight:400;
-
 }
 /*------------------UPFROMFOOTER--------------*/
 .upfromFooter{
 	margin-top:30px;
-
 }
 .upfromFooter p{
 	color: rgb(153, 153, 153);
