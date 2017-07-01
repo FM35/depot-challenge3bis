@@ -37,35 +37,59 @@ html {
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
-/*---------------Menu - Barre de naviguation--Début François-------------*/
+
 
 .fa {
     text-align: center;
     display: flex;
 }
 
+/*---------------Menu - Barre de naviguation--Début François-------------*/
+
+.menu {
+    height: 60px;
+}
+
 .navbar {
-    margin: 0 auto;
-    display: inline;
-    text-align: center;
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+    padding-top: 12px;
+    padding-left: 100px;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
 }
 
 .nav-links {
-    color: grey;
+    color: #717981;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Josefin+Sans', sans-serif;
-    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
     padding: 0 20px;
 }
 
 .nav-links-current {
-    color: white;
+    color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Josefin+Sans' sans-serif;
-    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
     padding: 0 20px;
+}
+
+/*---------------Fin Menu - Barre de naviguation---------------------------------*/
+
+a:hover {
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+a {
+    font-weight: bold;
+
 }
 
 .titre-header {
