@@ -444,7 +444,7 @@ section .container {
 
 
 /*------------------SOCIAL--------------*/
-a:hover{
+.socialFooter li a:hover {
     text-decoration:none;
 }
 .socialFooter{
