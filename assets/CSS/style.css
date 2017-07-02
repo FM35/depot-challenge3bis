@@ -262,13 +262,13 @@ h4 {
   text-align:center;
 }
 .pagination a{
-   margin-right:10px;
+   margin-right:13px;
    
 }
 .pagination li a{
     color: #888;
      font-family : "Playfair Display",serif;
-     font-size: 13px;
+     font-size: 14px;
    
     vertical-align: baseline
     letter-spacing: 1px;
