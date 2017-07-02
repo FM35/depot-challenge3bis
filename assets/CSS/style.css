@@ -8,8 +8,15 @@ https://github.com/roro35140/challenge3.git
 
 /* --- TABLE DES MATIERES
 
-. Import fonts
+
+Import fonts
+
+-Barre de naviguation
+-HEADER
+-Articles
+
 -PAGINATION
+
 - SECTION-ASIDE
 	-ABOUTME
 	-RECENTPOST
@@ -45,7 +52,7 @@ html {
     display: flex;
 }
 
-/*---------------Menu - Barre de naviguation--Début François-------------*/
+/*---------------Menu - Barre de naviguation--Début du codage François-------------*/
 
 .menu {
     height: 60px;
@@ -60,6 +67,8 @@ html {
     padding-left: 300px;
     padding-bottom: 0px;
     background-color: black;
+    position: fixed;
+    z-index: 1000;
 }
 
 .nav-links {
@@ -92,6 +101,8 @@ a {
 
 }
 
+
+
 /*---------------Menu - fin barre de naviguation-------------------------*/
 
 /*---------------Logo HEADER --------------------------------------------*/
@@ -102,12 +113,13 @@ a {
     background-color: #f5f5f5;
     text-align: center;
     height: 228px;
+    
 
 }
 
 
 h2 {
-     font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
     font-size: 14px;
     font-style: italic;
     
@@ -132,36 +144,43 @@ h2 {
     padding-bottom: 200px;
     padding-right: 60px;
     padding-left: 750px;
- 
 
 }
 
 .post{
+    background-color:#ffffff;
     height: 150px;
     width: 480px;
-    background-color:#ffffff;
-    border-style: double;
-    border-color: #717981;
     text-align: center;
     padding-top: 50px;
     margin:center;
-}
-.post p{
-    color:red;
-    font-size: 13px;
-    margin:20px 0px 0px 170px;
+    border:double;
+    border-color:#DEDEDE;
+   
 }
 
+
+
 .post p a{
+    color:#a60505;
+    font-size: 13px;
+    margin:center;
     padding: center;
     margin:center;
     color:red;
+    font-size: 13px;
 }
 
-.post h2{
+.article h2 a {
     margin:0px 0px 5px 0px;
+    color: black;
+    font-size: 18px;
+    font-family: "Playfair Display";
 }
 
+.article p {
+    color: #888;
+}
 
 
 /*---------------Début des articles --------------------------------------------*/
@@ -179,16 +198,15 @@ h2 {
     margin-bottom: 0px;
 }
 
-.post {
-    border-style: none;
-    border-width: 1px;
-    border-color: none;
-    padding: 6rem;
-}
 
+.separation_1{
+    border: none;
+
+}
 .separation2 {
     width: 100%;
     height: 2px;
+    border: none;
 }
 
 .img-responsive2 {
@@ -209,24 +227,31 @@ h2 {
 } 
 
 h2 a {
-    font-size: 14.4px;
-    font-family: "Lato";
+    font-size: 12px;
+    font-family: "Arial";
     text-align: center;
-    color: red;
+    color: #a60505;
 }
 
 h3 a {
     font-size: 20px;
-    font-family: "Player display";
+    font-family: "Arial";
     text-align: center;
-    color: none;
+    color: #313131;
 }
 
 h4 {
-    font-size: 17px;
+    font-size: 14px;
     font-family: "Lato";
     text-align: center;
-    color: none;
+    color: rgb(136, 136, 136);
+}
+
+
+.p-article{
+    font-size: 14px;
+    color: #313131;
+    text-align: left;
 }
 
 .separation2 {
@@ -238,20 +263,11 @@ h4 {
 }
 
 
+#nav{
+    margin:0 auto;
+    color: black;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
