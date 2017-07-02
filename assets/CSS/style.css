@@ -497,19 +497,24 @@ ul.footer-socials li:last-child {
 /*------------------LOGO COPYRIGHT--------------*/
 
 /*------------------LOGO --------------*/
-.logoFooter {
-    margin: 35px 0 40px;
-    line-height: 60px;
-    width: 100%;
+.logoCopyrightFooter{
+    width:100%;
+}
+
+.logoFooter img{
+ margin:30px auto;
+   
 }
 
 /*------------------COPYRIGHT--------------*/
-.copyrightFooter {
+.copyrightFooter p {
     color: rgb(153, 153, 153);
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: italic;
     font-weight: 400;
+    text-align:center;
+    line-height:19.6px;
 }
 
 /*------------------UPFROMFOOTER--------------*/
