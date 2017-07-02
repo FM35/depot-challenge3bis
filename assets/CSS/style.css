@@ -288,8 +288,7 @@ section .container {
 
 /*---------------ABOUTME--------------*/
 
-.imageabout,
-.imageabout img {
+.imageabout,.imageabout img {
     height: 245px;
 }
 
@@ -414,85 +413,68 @@ section .container {
 
 
 /*------------------SOCIAL--------------*/
-
-.socialFooter {
-    border-bottom: 1px solid #4a4a4a;
-    padding: 30px 0 15px;
-    text-align: center;
+a:hover{
+    text-decoration:none;
 }
-
+.socialFooter{
+	
+	border-bottom:1px solid #4a4a4a;
+	padding:30px 0 15px;
+	text-align:center;
+}
 .socialFooter ul {
-    display: flex;
-    justify-content: center;
+	display:flex;
+	justify-content: center;
 }
-
 .socialFooter ul li {
-    list-style: none;
-    margin-right: 29px;
+	list-style:none;
+	margin-right: 29px;
 }
 
 ul.footer-socials li:last-child {
     margin-right: 0;
 }
 
-.socialFooter ul li a:hover i {
+.socialFooter ul li a:hover i{
+	color:#999;
+	cursor:pointer;
+	transition:0.3s;
+	text-decoration:none;
+	border-color:white;
+	background-color:white;
+}
+
+
+.socialFooter ul li a i  {
+	border: 1px solid #999;
+    border-radius: 50%;
     color: #999;
-    cursor: pointer;
-    transition: 0.3s;
-    text-decoration: none;
-    border-color: white;
-    background-color: white;
-}
-
-.recentpost img {
-    height: 80px;
-    width: 120px;
-}
-
-.recentpost .row {
-    display: flex;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-
-.recentpost .titlephoto {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 30px;
-}
-
-.titlephoto h4 {
-    font-family: "lato", sans-serif;
-    font-size: 20px;
-    color: rgb(49, 49, 49);
-    line-height: 17px;
-    text-align: left;
-}
-
-.recentpost span {
-    font-family: "Lato", sans-serif;
-    color: #888888;
     font-size: 14px;
-    line-height: 17px;
-    vertical-align: baseline;
-    font-weight: 400;
-    text-align: left;
+    height: 32px;
+	width: 32px;
+	line-height: 30px;
+    text-decoration:none;
 }
 
-.recentpost a:hover h4 {
-    color: #a60505;
-    text-decoration: none;
+.socialFooter ul li  span {
+	font-weight:bold;
+	color:#999;
+	font-size:14px;
+	letter-spacing:1px;
+	margin-left:14px;
+	font-family:"Playfair Display",serif;
+    text-decoration:none;
 }
-
+.socialFooter li a:hover span {
+    color:white;
+    text-decoration:none;
+}
 .separation {
     height: 2px;
     width: 100%;
     background-color: #e7e7e7;
 }
 
-
-}
 
 /*------------------LOGO COPYRIGHT--------------*/
 
@@ -503,6 +485,7 @@ ul.footer-socials li:last-child {
 
 .logoFooter img{
  margin:30px auto;
+ width:35%;
    
 }
 
